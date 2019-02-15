@@ -19,7 +19,7 @@ display: flex;
 }
 .red {
 	background-color: red;
-	height:75%;
+	height:50%;
 	width: 100%;
 	display:flex;
 	border-style: solid;
@@ -58,7 +58,7 @@ display: flex;
 
 .green {
 	background-color: green;
-	height:25%;
+	height:50%;
 	width:100%;
 	display: flex;
 }
@@ -88,8 +88,14 @@ display: flex;
 }
 
 .restrict-img-size {
-	max-height: 75%;
-	max-width: 75%;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.center-content{
+	display:flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .img {
